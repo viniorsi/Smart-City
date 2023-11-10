@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #212121;
+    line-height: 30px;
+}
+
+h1 {
+    color: peru;
+    font-family: 'Cinzel', serif;
+}
+
+p {
+    color: white;
+    font-family: 'Concert One', cursive;
+}
+
+.header {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.imagens {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+}
+
+.imagem {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.imagem img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s;
+}
+
+.imagem:hover img {
+    transform: scale(1.5);
+}
+
+.texto1 {
+    font-family: 'Cinzel', serif;
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    z-index: 10;
+    color: white;
+    text-align: center;
+}
+
+.texto2 {
+    font-family: 'Cinzel', serif;
+    position: absolute;
+    top: 45%;
+    right: 22%;
+    z-index: 10;
+    color: white;
+    text-align: center;
+}
+
+/* *********Pag singapura/oslo************ */
+
+.imagem_principal {
+    width: 100%;
+    height: 45vh;
+}
+
+.imagem_principal img {
+    height: 100%;
+    width: 100%;
+}
+
+.navegacao {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu :hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.menu h1 {
+    font-size: 40px;
+}
+
+.menu a {
+    color: peru;
+    text-decoration: none;
+}
+
+.cidade {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.resumo {
+    height: 40vh;
+    width: 500px;
+}
+
+.resumo p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.cidade img {
+    width: 40%;
+    height: 100%;
+}
+
+.container {
+    width: 90vw;
+    height: 25vh;
+    margin: 20px 65px;
+    justify-content: center;
+}
+
+.diferenciais {
+    width: 100%;
+    height: 30vh;
+}
+
+.card {
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.futuro {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+}
+
+.imagens_futuro {
+    width: 50%;
+    height: 100%;
+    justify-content: space-around;
+
+}
+
+.imagens_futuro img {
+    margin: 10px 10px 0px 40px;
+    width: 300px;
+    height: 200px;
+}
+
+.paragrafo-futuro {
+    padding: 10px 40px;
+    width: 50%;
+    height: 100%;
+    font-size: 20px;
+    line-height: 40px;
+
+}
